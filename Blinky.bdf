@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 0 176 168 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "osc_clk" (rect 5 0 43 12)(font "Arial" ))
+	(text "osc_clk" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 256 592 424 608)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "button[0]" (rect 5 0 49 12)(font "Arial" ))
+	(text "button[0]" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -197,11 +197,6 @@ applicable agreement for further details.
 	(pt 504 224)
 )
 (connector
-	(text "counter[31:0]" (rect 754 208 818 220)(font "Arial" ))
-	(pt 744 224)
-	(pt 904 224)
-)
-(connector
 	(text "counter[24..21]" (rect 226 448 300 460)(font "Arial" ))
 	(pt 360 464)
 	(pt 216 464)
@@ -236,5 +231,11 @@ applicable agreement for further details.
 (connector
 	(pt 432 600)
 	(pt 424 600)
+	(bus)
+)
+(connector
+	(text "counter[31..0]" (rect 754 208 822 220)(font "Arial" ))
+	(pt 744 224)
+	(pt 824 224)
 	(bus)
 )
