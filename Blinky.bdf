@@ -19,6 +19,22 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 0 176 168 192)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "osc_clk" (rect 5 0 43 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
 (symbol
 	(rect 536 192 744 272)
 	(text "simple_counter" (rect 5 0 79 12)(font "Arial" ))
@@ -100,4 +116,9 @@ applicable agreement for further details.
 (connector
 	(pt 504 184)
 	(pt 504 224)
+)
+(connector
+	(text "counter[31:0]" (rect 754 208 818 220)(font "Arial" ))
+	(pt 744 224)
+	(pt 904 224)
 )
