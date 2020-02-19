@@ -169,3 +169,15 @@ applicable agreement for further details.
 	(pt 744 224)
 	(pt 904 224)
 )
+(connector
+	(text "counter[24..21]" (rect 226 448 300 460)(font "Arial" ))
+	(pt 360 464)
+	(pt 216 464)
+	(bus)
+)
+(connector
+	(text "counter[26..23]" (rect 226 432 300 444)(font "Arial" ))
+	(pt 360 448)
+	(pt 216 448)
+	(bus)
+)
