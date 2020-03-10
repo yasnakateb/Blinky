@@ -22,15 +22,6 @@ This project needs Quartus II.
 ### Block diagram
 ![](ScreenShots/Block_Diagram.png)
 
-### TODOs
----
- - ⭕ Create a basic Synopsys Design Constraints
- - ⭕ Verify in Hardware
-
-
-
-
-
 
 
 
